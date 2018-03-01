@@ -1,6 +1,6 @@
 {% set name = "bottle" %}
-{% set version = "0.12.9" %}
-{% set sha256 = "45285ad084ca054d821ceef8bd95462efd38e13ecbef13a82c22b6472a6f4b2d" %}
+{% set version = "0.12.13" %}
+{% set sha256 = "c89ce532b1c180905d03a4815fea2d7b9b444f5e13407f43a9c7eae5777aa613" %}
 
 package:
   name: {{ name|lower }}
@@ -18,6 +18,7 @@ build:
 requirements:
   build:
     - python
+    - setuptools
   run:
     - python
 
@@ -40,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - hajapy
+    - jmeppley
