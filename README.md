@@ -16,14 +16,15 @@ It is distributed as a single file module and has no dependencies other than the
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bottle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bottle-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bottle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bottle-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bottle-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bottle-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bottle-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bottle-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bottle/badges/version.svg)](https://anaconda.org/conda-forge/bottle)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bottle/badges/downloads.svg)](https://anaconda.org/conda-forge/bottle)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bottle-green.svg)](https://anaconda.org/conda-forge/bottle) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bottle.svg)](https://anaconda.org/conda-forge/bottle) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bottle.svg)](https://anaconda.org/conda-forge/bottle) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bottle.svg)](https://anaconda.org/conda-forge/bottle) |
 
 Installing bottle
 =================
