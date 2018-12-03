@@ -1,6 +1,6 @@
 {% set name = "bottle" %}
-{% set version = "0.12.13" %}
-{% set sha256 = "c89ce532b1c180905d03a4815fea2d7b9b444f5e13407f43a9c7eae5777aa613" %}
+{% set version = "0.12.14" %}
+{% set sha256 = "3d37cb8ebc6ab03986543280774c8b0aa028616123b9d4e2615b242fc8a291f9" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
