@@ -1,6 +1,6 @@
 {% set name = "bottle" %}
-{% set version = "0.12.18" %}
-{% set sha256 = "176721f1e26082c66fd4df76f31800933e4bb36de6814b0fda3851cb409a95e6" %}
+{% set version = "0.12.20" %}
+{% set sha256 = "04c1cf21d32ff54fe7c8e093f99ad04fbf810dbc623a9ae4d8dbafe8e162fc1d" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ about:
   home: http://bottlepy.org
   license: MIT
   license_file: LICENSE
-  summary: 'Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.'
+  summary: Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.
 
   description: |
     Bottle is a fast, simple and lightweight WSGI micro web-framework for Python. 
