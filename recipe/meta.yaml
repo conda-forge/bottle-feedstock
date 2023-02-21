@@ -1,6 +1,6 @@
 {% set name = "bottle" %}
-{% set version = "0.12.23" %}
-{% set sha256 = "f38c26395736ae4653cbeb94087d3bd1d2e1ad0c29b1d3e5384f5db20b63bc98" %}
+{% set version = "0.12.24" %}
+{% set sha256 = "91b4be6cb72e8ff98565afb9f93689238df07755884cb882be018379c49677f0" %}
 
 package:
   name: {{ name|lower }}
