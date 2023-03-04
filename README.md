@@ -1,11 +1,11 @@
-About bottle
-============
+About bottle-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bottle-feedstock/blob/main/LICENSE.txt)
 
 Home: http://bottlepy.org
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bottle-feedstock/blob/main/LICENSE.txt)
 
 Summary: Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.
 
