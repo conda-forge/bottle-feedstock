@@ -1,4 +1,4 @@
-{% set version = "0.13.1" %}
+{% set version = "0.13.2" %}
 
 package:
   name: bottle
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/bottlepy/bottle/archive/{{ version }}.tar.gz
-  sha256: e534b5a312cbb619b1e0352beb7652051878d3448dc073413de13037922cc08f
+  sha256: 638e4fdd64ee55becd0a591ecf4aaddf27c319f5254b6bcb6959130c00c6e793
 
 build:
   noarch: python
