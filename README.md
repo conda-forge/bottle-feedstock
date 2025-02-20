@@ -11,7 +11,7 @@ Summary: Bottle is a fast, simple and lightweight WSGI micro web-framework for P
 
 Development: https://github.com/bottlepy/bottle
 
-Documentation: http://bottlepy.org/docs/0.12/
+Documentation: http://bottlepy.org/docs/0.13/
 
 Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.
 It is distributed as a single file module and has no dependencies other than the Python Standard Library.
@@ -153,4 +153,5 @@ Feedstock Maintainers
 
 * [@hajapy](https://github.com/hajapy/)
 * [@jmeppley](https://github.com/jmeppley/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
