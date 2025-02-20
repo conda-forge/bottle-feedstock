@@ -24,8 +24,11 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - bottle
+  commands:
+    - pip check
 
 about:
   home: http://bottlepy.org
@@ -36,10 +39,11 @@ about:
   description: |
     Bottle is a fast, simple and lightweight WSGI micro web-framework for Python. 
     It is distributed as a single file module and has no dependencies other than the Python Standard Library.
-  doc_url: http://bottlepy.org/docs/0.12/
+  doc_url: http://bottlepy.org/docs/0.13/
   dev_url: https://github.com/bottlepy/bottle
 
 extra:
   recipe-maintainers:
     - hajapy
     - jmeppley
+    - synapticarbors
