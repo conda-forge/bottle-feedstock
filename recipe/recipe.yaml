@@ -1,0 +1,57 @@
+schema_version: 1
+
+context:
+  version: 0.13.4
+
+package:
+  name: bottle
+  version: ${{ version }}
+
+source:
+  url: https://github.com/bottlepy/bottle/archive/${{ version }}.tar.gz
+  sha256: 807c789c3184d7070010dbdf1339ee46ff9fb9b6694d7caa3047f975f8a7df60
+
+build:
+  number: 0
+  noarch: python
+  script: python -m pip install . --no-deps --no-build-isolation -vv
+  python:
+    entry_points:
+      - bottle = bottle:main
+
+requirements:
+  host:
+    - pip
+    - python ${{ python_min }}.*
+    - setuptools
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      imports:
+        - bottle
+      pip_check: true
+      python_version: ${{ python_min }}.*
+  - script:
+      - bottle --help
+    requirements:
+      run:
+        - python ${{ python_min }}.*
+
+about:
+  license: MIT
+  license_file: LICENSE
+  summary: Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.
+  description: |
+    Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.
+    It is distributed as a single file module and has no dependencies other than the Python Standard Library.
+  homepage: http://bottlepy.org
+  repository: https://github.com/bottlepy/bottle
+  documentation: http://bottlepy.org/docs/0.12/
+
+extra:
+  recipe-maintainers:
+    - hajapy
+    - jmeppley
+    - synapticarbors
