@@ -3,7 +3,7 @@ About bottle-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bottle-feedstock/blob/main/LICENSE.txt)
 
-Home: http://bottlepy.org
+Home: http://bottlepy.org/
 
 Package license: MIT
 
@@ -15,7 +15,6 @@ Documentation: http://bottlepy.org/docs/0.12/
 
 Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.
 It is distributed as a single file module and has no dependencies other than the Python Standard Library.
-
 
 Current build status
 ====================
@@ -153,4 +152,5 @@ Feedstock Maintainers
 
 * [@hajapy](https://github.com/hajapy/)
 * [@jmeppley](https://github.com/jmeppley/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
